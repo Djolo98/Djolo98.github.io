@@ -1,0 +1,473 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.cistac {
+	clear: both;
+}
+
+body
+{
+    font-size: 14px;
+    color: #666;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+.okvir {
+	width: 1300px;
+	margin: 0px auto;
+}
+
+#zaglavlje {
+	background: url("../img/cover.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	width: 100%;
+	height: 1000px;
+}
+
+#zaglavljeRezervacija {
+	background: url("../img/cover.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	width: 100%;
+	height: 1000px;
+}
+
+#rezervacija {
+
+}
+
+#heder {
+	width: 100%;
+	height: 185px;
+	top:0px;
+	left: 0px;
+}
+
+#logo {
+	float: left;
+	width:170px;
+	height: inherit;
+	margin-top: 30px;
+}
+
+#navigacija {
+	float: right;
+}
+
+#navigacija li {
+	line-height: 185px;
+	float: left;
+	display: block;
+	text-align: center;
+	width: 100px;
+	margin: 0px 15px;
+}
+
+#navigacija ul li a {
+	font-size: 1.75em;
+	color: white;
+}
+
+.aktivanLink a label{
+	color: #A08470;
+}
+
+#izdvajamoIzPonude {
+	width: 100%;
+	height: 600px;
+}
+
+.cena {
+	float: left;
+	position: absolute;
+	top: -15px;
+	left: -15px;
+	width: 90px;
+	height: 36px;
+	background-color: #c38346;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 36px;
+	font-size: 1.25em;
+}
+
+#kontejner {
+	width: auto;
+	height: 576px;
+	margin: 0 auto;
+ list-style: none;
+ display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-flex-flow: row wrap;
+ justify-content: space-around;
+}
+.izdvajamoIzPonudeBlok {
+	position: relative;
+	 width: 330px;
+	 margin-top: 91px;
+ height: 393px;
+ color: black;
+ font-weight: bold;
+ font-size: 1.1em;
+ text-align: center;
+}
+
+#slika1 {
+	background: url("../img/kafa.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	width: 100%;
+	height: 500px;
+	font-size: 2.2em; 
+	text-align: center; 
+	color: white;
+}
+#slika1 div {
+	height: inherit;
+  	line-height: 500px;
+  	text-align: center;
+}
+
+
+#dogadjaji {
+	width: 100%;
+	height: 576px;
+}
+#dogadjaji h2 {
+	color: #716562;
+}
+#dogadjaj-kontejner {
+	width: auto;
+	height: 576px;
+	margin: 0 auto;
+ list-style: none;
+ display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-flex-flow: row wrap;
+ justify-content: space-around;
+}
+
+.dogadjaj-blok {
+	margin:10px;
+	position: relative;
+	 width: 640px;
+	 margin-top: 40px;
+ height: 393px;
+ color: black;
+ font-weight: bold;
+ font-size: 1.1em;
+ text-align: center;
+}
+
+.dogadjajiSlika {
+	width: inherit;
+	height: inherit;
+}
+
+.dogadjaj-blok:hover .dogadjajiSlika {
+  opacity: 0.3;
+}
+
+.dogadjaj-blok:hover .sredina {
+  opacity: 1;
+}
+
+.sredina {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  background-color: rgba(113,101,98);
+  color: white;
+  font-size: 30px;
+  padding: 20px 40px;
+  border-radius: 20px;
+}
+
+#meniKontejner {
+width: auto;
+ height: 910px; 
+ padding: 0;margin: 0;
+ list-style: none;
+ display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-flex-flow: row wrap;
+ justify-content: space-around;
+ border: 1px solid black;
+}
+.meniKontejnerLevo {
+ width: 33%;
+ height: 100%;
+ color: white;
+ font-weight: bold;
+ font-size: 3em;
+ text-align: center;
+ background-image: url("../img/slikaLevo.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.meniKontejnerDesno {
+ width: 67%;
+ height: 100%;
+ color: white;
+ font-weight: bold;
+ font-size: 1.1em;
+ text-align: center;
+ margin: 0 auto;
+ list-style: none;
+ display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-flex-flow: row wrap;
+ justify-content: space-around;
+}
+.special {
+	background-color: #302F2F;
+}
+.meniBlok {
+ width: 375px;
+ height: 92px;
+ color: white;
+ font-weight: bold;
+ font-size: 1.1em;
+ text-align: center;
+ margin-bottom: 45px;
+ margin-right: 50px;
+ position: relative;
+}
+#meniKontejnerLista {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  margin: 130px;
+  margin-top: 55px; 
+  margin-bottom: 10px;
+}
+.nazivMeni {
+	float: left;
+}
+.meniCena {
+	position: absolute;
+	right: 0px;
+}
+.meniBlok span {
+	font-size: 2em;
+}
+.meniBlok p {
+	font-style: 1em;
+	position: absolute;
+	bottom: 0px;
+}
+.meniBlok hr {
+	position: absolute;
+	bottom: 0px;
+}
+
+h2	{
+	margin-top: 25px;
+	font-size: 3em;
+	color: black;
+	text-align: center;
+}
+
+#meniH1 {
+	margin: 35px;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#test {
+  border-radius: 5px;
+  background-color: rgba(95, 95, 95, 0.66);
+  padding: 60px;
+  width: 750px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 40px; 
+}
+
+#test label {
+	color: black;
+	font-size: 1.33em;
+}
+
+#kontakt {
+  border-radius: 5px;
+  background-color: rgba(95, 95, 95, 0.66);
+  padding: 60px;
+  width: 750px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 40px; 
+}
+
+
+
+#futer {
+	width: 100%;
+	padding: 30px 0px;
+	color: #fff;
+	margin-top: 20px;
+}
+
+#copyright {
+	float: left;
+	margin-top: 15px;
+}
+
+#social-network {
+	float: right;
+}
+
+#social-network li {
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+#copyright p {
+	color: #6B5D58;
+	font-size: 2em;
+}
+
+
+#galerija {
+	width: 100%;
+	height: auto;
+}
+
+#galerija img {
+  border: 3px solid #A08470;
+  border-radius: 4px;
+  width: auto;
+
+}
+
+#galerija h2 {
+	color: #716562;
+}
+
+#galerija-kontejner {
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+ display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-flex-flow: row wrap;
+ justify-content: space-around;
+}
+
+.galerija-blok {
+ margin:10px;
+ position: relative;
+ width: 640px;
+ margin-top: 40px;
+ height: 393px;
+ color: black;
+ font-weight: bold;
+ font-size: 1.1em;
+ text-align: center;
+}
+
+.galerijaSlika {
+	width: inherit;
+	height: inherit;
+}
+
+
+
+
