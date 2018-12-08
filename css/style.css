@@ -8,6 +8,7 @@
 	clear: both;
 }
 
+
 body
 {
     font-size: 14px;
@@ -67,6 +68,11 @@ a {
 	margin-top: 30px;
 }
 
+#logo img {
+	width: 103px;
+	height: 90px; 
+}
+
 #navigacija {
 	float: right;
 }
@@ -85,13 +91,18 @@ a {
 	color: white;
 }
 
-.aktivanLink a label{
+.aktivanLink a p {
 	color: #A08470;
 }
 
 #izdvajamoIzPonude {
 	width: 100%;
 	height: 600px;
+}
+
+#izdvajamoIzPonudeBlok img {
+	width: 330px;
+	height: 226px;
 }
 
 .cena {
@@ -112,27 +123,27 @@ a {
 	width: auto;
 	height: 576px;
 	margin: 0 auto;
- list-style: none;
- display: -webkit-box;
- display: -moz-box;
- display: -ms-flexbox;
- display: -webkit-flex;
- display: flex;
- -webkit-flex-flow: row wrap;
- justify-content: space-around;
+	list-style: none;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+ 	justify-content: space-around;
 }
 .izdvajamoIzPonudeBlok {
 	position: relative;
-	 width: 330px;
-	 margin-top: 91px;
- height: 393px;
- color: black;
- font-weight: bold;
- font-size: 1.1em;
- text-align: center;
+	width: 330px;
+	margin-top: 91px;
+	height: 393px;
+	color: black;
+	font-weight: bold;
+	font-size: 1.1em;
+	text-align: center;
 }
 
-#slika1 {
+#citat {
 	background: url("../img/kafa.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -144,7 +155,7 @@ a {
 	text-align: center; 
 	color: white;
 }
-#slika1 div {
+#citat div {
 	height: inherit;
   	line-height: 500px;
   	text-align: center;
@@ -162,26 +173,26 @@ a {
 	width: auto;
 	height: 576px;
 	margin: 0 auto;
- list-style: none;
- display: -webkit-box;
- display: -moz-box;
- display: -ms-flexbox;
- display: -webkit-flex;
- display: flex;
- -webkit-flex-flow: row wrap;
- justify-content: space-around;
+	list-style: none;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
 }
 
 .dogadjaj-blok {
 	margin:10px;
 	position: relative;
-	 width: 640px;
-	 margin-top: 40px;
- height: 393px;
- color: black;
- font-weight: bold;
- font-size: 1.1em;
- text-align: center;
+	width: 640px;
+	margin-top: 40px;
+	height: 393px;
+	color: black;
+	font-weight: bold;
+	font-size: 1.1em;
+	text-align: center;
 }
 
 .dogadjajiSlika {
@@ -190,11 +201,11 @@ a {
 }
 
 .dogadjaj-blok:hover .dogadjajiSlika {
-  opacity: 0.3;
+	opacity: 0.3;
 }
 
 .dogadjaj-blok:hover .sredina {
-  opacity: 1;
+  	opacity: 1;
 }
 
 .sredina {
@@ -217,7 +228,7 @@ a {
 }
 
 #meniKontejner {
-width: auto;
+ width: auto;
  height: 910px; 
  padding: 0;margin: 0;
  list-style: none;
@@ -272,6 +283,9 @@ width: auto;
  margin-right: 50px;
  position: relative;
 }
+.meniBlok hr {
+	width: 372px;
+}
 #meniKontejnerLista {
   columns: 2;
   -webkit-columns: 2;
@@ -313,26 +327,6 @@ h2	{
     text-align: center;
 }
 
-
-
-.container {
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.container .content {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.5); 
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-
-
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -368,7 +362,7 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-#test {
+#forma {
   border-radius: 5px;
   background-color: rgba(95, 95, 95, 0.66);
   padding: 60px;
@@ -378,22 +372,10 @@ input[type=submit]:hover {
   margin-top: 40px; 
 }
 
-#test label {
+#forma label {
 	color: black;
 	font-size: 1.33em;
 }
-
-#kontakt {
-  border-radius: 5px;
-  background-color: rgba(95, 95, 95, 0.66);
-  padding: 60px;
-  width: 750px;
-  height: 600px;
-  margin: 0 auto;
-  margin-top: 40px; 
-}
-
-
 
 #futer {
 	width: 100%;
@@ -467,6 +449,7 @@ input[type=submit]:hover {
 	width: inherit;
 	height: inherit;
 }
+
 
 
 
