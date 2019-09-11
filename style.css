@@ -1,0 +1,79 @@
+* {
+	margin: 0 auto;
+	box-sizing:border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.absolute {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  background-color: red;
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#hu1 {
+	background-color: black;
+}
+
+#hu2 {
+	background-color: #bdf1ff;
+}
+
+#hu3 {
+	background-color: #0d9ead;
+}
+
+.test {
+  position: absolute;
+  top: -40px;
+  z-index: 1;
+}
+
+.naslov {
+	text-align: center;
+}
+
+p{
+	max-width: 450px;
+}
+
+i{
+	color: black;
+}
+
+footer {
+	margin-top: 15px;
+	background-color: silver;
+}
+
+.prodavnica {
+	background-color: #F8F9FA;
+}
+
+.brand-logo {
+	color: black !important;
+}
+
+ul li a {
+	color: black;
+}
+
+label {
+	text-align: center;
+	color: black;
+	font-weight: 700;
+}
