@@ -1,241 +1,220 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/ikonica.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-	<meta name="author" content="Djorjde Savic"/>
-	<meta name="description" content="Djorjde Savic portfolio website.Full-stack web developer specialized in java and nodeJS."/>
-	<meta name="keywords" content="java,djordje,posao,kontakt,pocetna,developer,website"/>
-	<meta name="copyright" content="Djorjde Savic 2019"/>
-    <title>Djordje Savic - portfolio </title>
-  </head>
-  <body>
-    <!-- Zaglavlje -->
-    <div id="zaglavlje">
-        <div id="logo">
-          <h1><a href="djolo" title="">Djolo</a></h1>
+<html>
+
+<head>
+    <title>Sajt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
         </div>
-        <div id="meni">
-          <button id="btnMeni">Menu</button>
-          <ul>
-            <li><a href="#omeni">Omeni</a></li>
-            <li><a href="#usluge">Usluge</a></li>
-            <li><a href="#projekti">Projekti</a></li>
-            <li><a href="#recenzije">Recenzije</a></li>
-          </ul>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    	<div class="test">
+			<ol>
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="absolute"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1" class="absolute"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2" class="absolute"></li>
+			</ol>
+		</div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://picsum.photos/id/81/600/300" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/id/82/600/300" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/id/83/600/300" class="d-block w-100" alt="...">
+            </div>
         </div>
-    </div>
-    <!--// Zaglavlje -->
-    <!--// Slajder -->
-    <div id="slajder">
-      <div class="omotac">
-  			<div id="slajderTekst">
-          <h5>This is my</h5>
-  				<h2>Djordje Savic</h2>
-  			</div>
-  		</div>
-    </div>
-    <!--// Slajder -->
-    <!-- Omeni -->
-    <div class="omotac">
-      <div class="naslov">
-        <div class="linija"></div>
-        <h3>O Meni</h3>
-        <div class="linija"></div>
-        <div class="cistac"></div>
-      </div>
-      <div id="omeni">
-        <div class="boxes">
-          <div class="omeniTekst" >
-            <p>Studiram u Visoka skola strukovnih studija za informacione i komunikacione tehnologije</p>
-            <p>U slobodno vreme volim da se bavim programiranjem</p>
-            <p>Trenutno izucavam SOCKET.IO koji omogucava realtime komunikaciju izmedju klijenta i servera</p>
-          </div>
-          <div class="pbcontainer">
-            <div class="pbw">
-              <p>Javascript 88%</p>
-              <div class="pb">
-                <span class="pbf" style="width: 88%"></span>
-              </div>
-            </div>
-            <div class="pbw">
-              <p>NodeJS 93%</p>
-              <div class="pb">
-                <span class="pbf" style="width: 93%"></span>
-              </div>
-            </div>
-            <div class="pbw">
-              <p>Java 80%</p>
-              <div class="pb">
-                <span class="pbf" style="width: 80%"></span>
-              </div>
-            </div>
-            <div class="pbw">
-              <p>C# 96%</p>
-              <div class="pb">
-                <span class="pbf" style="width: 96%"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--// Omeni -->
-    <!-- Usluge -->
-    <div class="gradient0deg">
-      <div class="omotac ">
-        <div class="naslov">
-          <div class="linija"></div>
-          <h3>Usluge</h3>
-          <div class="linija"></div>
-          <div class="cistac"></div>
-        </div>
-        <div id="usluge">
-          <div class="boxes">
-            <div class="box">
-              <i class="fas fa-pencil-ruler"></i>
-              <h3>Dizaj</h3>
-              <p>Dizajniranje svih vrsta sajtova, logo-a, 2d modela</p>
-              <p>Vec od $8/satu</p>
-            </div>
-            <div class="box">
-              <i class="fas fa-database"></i>
-              <h3>Database Manager</h3>
-              <p>Menadzment baza podataka, kreiranje modela za baze podataka, pisanje procedura</p>
-              <p>Vec od $7/satu</p>
-            </div>
-            <div class="box">
-              <i class="fas fa-laptop-code"></i>
-              <h3>Java</h3>
-              <p>Koriscenje najnovijih tehnologija, Spring, Hibernate, Back-end redizajn</p>
-              <p>Vec od $10/satu</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--// Usluge -->
-    <!-- Projekti -->
-    <div class="omotac ">
-      <div class="naslov">
-        <div class="linija"></div>
-        <h3>Projekti</h3>
-        <div class="linija"></div>
-        <div class="cistac"></div>
-      </div>
-      <div id="projekti">
-        <div class="projekat">
-          <img src="images/projekat1.jpg" alt="">
-        </div>
-        <div class="projekat">
-          <img src="images/projekat2.jpg" alt="">
-        </div>
-        <div class="projekat">
-          <img src="images/projekat4.png" alt="">
-        </div>
-        <div class="projekat">
-          <img src="images/projekat3.png" alt="">
-        </div>
-      </div>
-    </div>
-    <!--// Projekti -->
-    <!-- Recenzije -->
-    <div class="gradient180deg">
-      <div class="omotac ">
-        <div class="naslov">
-          <div class="linija"></div>
-          <h3>Recenzije</h3>
-          <div class="linija"></div>
-          <div class="cistac"></div>
-        </div>
-        <div id="recenzije">
-          <div class="boxes">
-            <div class="box">
-              <h2>Petar Petrovic</h2>
-              <p>Odlicna saradnja, nadam se uskoro novoj</p>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-            </div>
-            <div class="box">
-              <h2>Andrija Crnogorac</h2>
-              <p>Kao i uvek, sve u roku</p>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-            </div>
-            <div class="box">
-              <h2>Sasa Nedeljkovic</h2>
-              <p>Odlican dizajn, preporuke mojim prijateljima</p>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--// Recenzije -->
-    <div id="futer">
-      <div class="omotac">
-        <div class="naslov">
-          <div class="linija"></div>
-          <h3>Kontaktiraj me</h3>
-          <div class="linija"></div>
-          <div class="cistac"></div>
-        </div>
-        <div class="container">
-          <form action="/kontakt.php">
-            <div class="row">
-              <div class="col">
-                <input type="text" id="fname" name="firstname" placeholder="Ime..">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <input type="text" id="lname" name="lastname" placeholder="Prezime..">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <select id="country" name="country">
-                  <option value="Java">Java</option>
-                  <option value="Baze Podataka">Baze Podataka</option>
-                  <option value="Dizajn">Dizajn</option>
-                </select>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <textarea id="subject" name="subject" placeholder="Napisi kratak opis posla.." ></textarea>
-              </div>
-            </div>
-            <div class="row">
-              <input type="submit" value="Submit">
-            </div>
-          </form>
-          <div id="futerText"><p>&copy; Djordje Savic 2018</p></div>
-          	<div id="futerIkonice">
-          		<a href=""><i class="fab fa-instagram"></i></a>
-          		<a href=""><i class="fab fa-facebook"></i></a>
-          		<a href=""><i class="fab fa-twitter"></i></a>
-          	</div>
-        </div>
-      </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 
+    <div class="bd-example bd-example-tabs mt-5 " style="width: 1200px">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="false">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="true">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="card-deck">
+                    <div class="card">
+                        <div style="text-align: center;">
+                            <img src="https://www.gamecentar.rs/media/catalog/product/cache/1/image/1000x1251/9df78eab33525d08d6e5fb8d27136e95/2/1/21564-ps4-fifa-2020-champions-cena-prodaja-srbija.jpg.jpg" style="max-width: 100%;" alt="FYI, image alt text is required" />
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div style="text-align: center;">
+                            <img src="https://www.gamecentar.rs/media/catalog/product/cache/1/image/1000x1251/9df78eab33525d08d6e5fb8d27136e95/2/1/21564-ps4-fifa-2020-champions-cena-prodaja-srbija.jpg.jpg" style="max-width: 100%;" alt="FYI, image alt text is required" />
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div style="text-align: center;">
+                            <img src="https://www.gamecentar.rs/media/catalog/product/cache/1/image/1000x1251/9df78eab33525d08d6e5fb8d27136e95/2/1/21564-ps4-fifa-2020-champions-cena-prodaja-srbija.jpg.jpg" style="max-width: 100%;" alt="FYI, image alt text is required" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade active show" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="card-deck">
+                    <div class="card border-success mb-3" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-success">PCG FIFA 20</div>
+                        <div class="card-body text-success p-0">
+                            <img src="https://www.gamecentar.rs/media/catalog/product/cache/1/image/1000x1251/9df78eab33525d08d6e5fb8d27136e95/2/1/21564-ps4-fifa-2020-champions-cena-prodaja-srbija.jpg.jpg" style="max-width: 100%;" alt="FYI, image alt text is required" />
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <span>10.809,00 din </span>
+                            <button type="button" class="btn btn-info ml-4">00</button>
+                        </div>
+                    </div>
+                    <div class="card border-success mb-3" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-success">PCG FIFA 20</div>
+                        <div class="card-body text-success p-0">
+                            <img src="https://www.gamecentar.rs/media/catalog/product/cache/1/image/1000x1251/9df78eab33525d08d6e5fb8d27136e95/2/1/21564-ps4-fifa-2020-champions-cena-prodaja-srbija.jpg.jpg" style="max-width: 100%;" alt="FYI, image alt text is required" />
+                        </div>
+                        <div class="card-footer bg-transparent border-success">
+                            <span>10.809,00 din </span>
+                            <button type="button" class="btn btn-info ml-4">00</button>
+                        </div>
+                    </div>
+                    <div class="card border-success mb-3" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-success">PCG FIFA 20</div>
+                        <div class="card-body text-success np">
+                            <img src="https://www.gamecentar.rs/media/catalog/product/cache/1/image/1000x1251/9df78eab33525d08d6e5fb8d27136e95/2/1/21564-ps4-fifa-2020-champions-cena-prodaja-srbija.jpg.jpg" style="max-width: 100%;" alt="FYI, image alt text is required" />
+                        </div>
+                        <div class="card-footer bg-transparent border-success">
+                            <span>10.809,00 din </span>
+                            <button type="button" class="btn btn-info ml-4">00</button>
+                        </div>
+                    </div>
+                    <div class="card border-success mb-3" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-success">PCG FIFA 20</div>
+                        <div class="card-body text-success np">
+                            <img src="https://www.gamecentar.rs/media/catalog/product/cache/1/image/1000x1251/9df78eab33525d08d6e5fb8d27136e95/2/1/21564-ps4-fifa-2020-champions-cena-prodaja-srbija.jpg.jpg" style="max-width: 100%;" alt="FYI, image alt text is required" />
+                        </div>
+                        <div class="card-footer bg-transparent border-success">
+                            <span>10.809,00 din </span>
+                            <button type="button" class="btn btn-info ml-4">00</button>
+                        </div>
+                    </div>
+                    <div class="card border-success mb-3" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-success">PCG FIFA 20</div>
+                        <div class="card-body text-success np">
+                            <img src="https://www.gamecentar.rs/media/catalog/product/cache/1/image/1000x1251/9df78eab33525d08d6e5fb8d27136e95/2/1/21564-ps4-fifa-2020-champions-cena-prodaja-srbija.jpg.jpg" style="max-width: 100%;" alt="FYI, image alt text is required" />
+                        </div>
+                        <div class="card-footer bg-transparent border-success">
+                            <span>10.809,00 din </span>
+                            <button type="button" class="btn btn-info ml-4">00</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="card-deck">
+                    <div class="card">
+                        <div style="text-align: center;">
+                            <img src="https://www.gamecentar.rs/media/catalog/product/cache/1/image/1000x1251/9df78eab33525d08d6e5fb8d27136e95/2/1/21564-ps4-fifa-2020-champions-cena-prodaja-srbija.jpg.jpg" style="max-width: 100%;" alt="FYI, image alt text is required" />
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div style="text-align: center;">
+                            <img src="https://www.gamecentar.rs/media/catalog/product/cache/1/image/1000x1251/9df78eab33525d08d6e5fb8d27136e95/2/1/21564-ps4-fifa-2020-champions-cena-prodaja-srbija.jpg.jpg" style="max-width: 100%;" alt="FYI, image alt text is required" />
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div style="text-align: center;">
+                            <img src="https://www.gamecentar.rs/media/catalog/product/cache/1/image/1000x1251/9df78eab33525d08d6e5fb8d27136e95/2/1/21564-ps4-fifa-2020-champions-cena-prodaja-srbija.jpg.jpg" style="max-width: 100%;" alt="FYI, image alt text is required" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    ************************
 
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="max-width: 500px;">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active crna"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.samsung.com/is/image/samsung/p5/global/mkt/home/home_kv_galaxy_s10_pc_combo_2_L.jpg?$ORIGIN_JPG$" class="d-block w-100 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.samsung.com/is/image/samsung/p5/global/mkt/home/home_kv_galaxy_s10_pc_combo_2_L.jpg?$ORIGIN_JPG$" class="d-block w-100 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.samsung.com/is/image/samsung/p5/global/mkt/home/home_kv_galaxy_s10_pc_combo_2_L.jpg?$ORIGIN_JPG$" class="d-block w-100 img-fluid" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
-  </body>
+    <div class="m-5">
+        fag
+    </div>
+
+</body>
+
 </html>
